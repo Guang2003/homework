@@ -1,0 +1,15 @@
+grade1=float(input())
+grade2=float(input())
+grade3=float(input())
+grade4=float(input())
+grade5=float(input())
+credit1=float(input())
+credit2=float(input())
+credit3=float(input())
+credit4=float(input())
+credit5=float(input())
+average=(grade1+grade2+grade3+grade4+grade5)/5
+creditsum=credit1+credit2+credit3+credit4+credit5
+weightedaverage=(grade1*credit1+grade2*credit2+grade3*credit3+grade4*credit4+grade5*credit5)/creditsum
+print(round(average,1))
+print(round(weightedaverage,1))
