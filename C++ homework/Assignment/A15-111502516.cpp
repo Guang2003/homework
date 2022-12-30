@@ -23,7 +23,7 @@ void sort_card(string *p_card)
         {
             for(int k = 0; k < 12; k++)
             {
-                string card1 = p_card[i][k];
+                string card1 = p_card[i][k];//此行報錯conversion from '__gnu_cxx::__alloc_traits<std::allocator<char>, char>::value_type' {aka 'char'} to non-scalar type 'std::__cxx11::string' {aka 'std::__cxx11::basic_string<char>'} requested
                 string card2 = p_card[i][k+1];
                 if(compare[card1] > compare[card2])
                 {
